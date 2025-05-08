@@ -310,7 +310,7 @@ print("="*60)
 
 match jogada: 
     case _ if jogada==1 and maquina==1:
-        print("EMPATOU MIGA")
+        print("EMPATOU MIGA")  
     case _ if jogada==1 and maquina==2:
         print("VOCE PERDEU BOBONA")
     case _ if jogada==1 and maquina==3:
